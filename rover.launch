@@ -1,0 +1,16 @@
+<launch>
+    <node
+        pkg="rover"
+        type="ultrasound_distance.py"
+        name="ultrasound_distance"
+        output="screen"
+        launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)"
+    ></node>
+    <node
+        pkg="rover"
+        type="rover.py"
+        name="rover"
+        output="screen"
+        launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)"
+    ></node>
+</launch>
