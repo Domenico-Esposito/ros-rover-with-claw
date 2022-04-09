@@ -2,11 +2,8 @@
 import time
 import rospy
 
-from std_msgs.msg import Float32
-
 import RPi.GPIO as GPIO
 
-# Radar(24, 22)
 class Ultrasound():
 
     def __init__(self, gpio_trigger, gpio_echo):
@@ -18,7 +15,6 @@ class Ultrasound():
         GPIO.setup(gpio_echo, GPIO.IN)
 
     def getDistanceInCm(self):
-        rospy.loginfo("Chiamata getDistance")
         GPIO.output(self.__gpio_trigger, True)
         time.sleep(0.00001)
         GPIO.output(self.__gpio_trigger, False)
