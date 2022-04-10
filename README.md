@@ -32,7 +32,7 @@ I have used the tool called [Fritzing](https://fritzing.org) for design the rove
 ![Printed objects](./docs/img/fritzing.jpg "Printed objects")
 
 ## Software (ROS and Topics)
-The core of the robot is a RaspberryPi 2 Model B with Ubuntu 18.16 LTS operation system. The version of ROS chosen is Noetic Ninjemys (ROS 1 LTS). This version is the most recent of ROS with native support to ARM processors with 32-bit.
+The core of the robot is a RaspberryPi 2 Model B with Ubuntu 18.16 LTS operation system. The version of ROS chosen is Noetic Ninjemys (ROS 1 LTS). This version is the most recent of ROS with native support to 32-bit ARM architecture.
 
 I use five topics, showed in the following graph, for manage all aspects of rover. The sixth topic, "/camera_frame_with_detection" is only for debugging use, it shows the frame edit published from "/main_camera".
 
