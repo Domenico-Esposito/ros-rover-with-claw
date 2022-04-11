@@ -1,6 +1,7 @@
 # 🤖 Rover 2WD with Claw
 
-https://user-images.githubusercontent.com/3593408/162735472-cad62f20-62ee-4a8a-8f67-f33e0a3ab2fd.mp4
+
+https://user-images.githubusercontent.com/3593408/162735964-8da5331d-4d9d-4e6c-a3a2-3dc8a4cc0c6b.mp4
 
 
 This page shows the main aspects of the robot. The robot uses Robot Operating System (ROS) runned on the RaspberryPi 2 Model B. The main goal of the robot is to grab, with a claw, a small object positioned in front of a wall with green background and release it in front another wall with purple background. The project is created for fun 🤓.
