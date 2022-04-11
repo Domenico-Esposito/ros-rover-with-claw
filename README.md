@@ -12,7 +12,7 @@ The task of this robot is very simple: first of all go to the first target, next
 - Rapberry Pi Camera v1.3
 - TP-Link Wireless T2U Nano
 - Motors servo SG90 (x2)
-- DC Motrs (x2)
+- DC Motors (x2)
 - Bridge-H L9110S
 - HC-SR04
 - 330 Ohm resistor (x2)
@@ -27,7 +27,7 @@ The task of this robot is very simple: first of all go to the first target, next
 ![Printed objects](./docs/img/printed.jpg "Printed objects")
 
 ## Connections
-I have used the tool called [Fritzing](https://fritzing.org) for design the rover’s connections. In the design is not present the Pi Camera, because Friting doesn’t support this type of connection.
+I have used the tool called [Fritzing](https://fritzing.org) for design the rover’s connections. In the design is not present the Pi Camera, because Fritzing doesn’t support this type of connection.
 
 ![Printed objects](./docs/img/fritzing.jpg "Printed objects")
 
